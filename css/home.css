@@ -1,0 +1,80 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FCFAEE; /* Ivory as the background */
+    color: #333; /* Dark gray for the text */
+}
+
+/* Header Styling */
+header {
+    background-color: #A5B68D; /* Sage Green for header */
+    color: #FCFAEE; /* Ivory for the header text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Bar Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #DA8359; /* Burnt Orange for the nav background */
+    padding: 10px;
+}
+
+nav a {
+    color: #FCFAEE; /* Ivory for nav links */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Blog Posts Styling */
+.recent-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post {
+    background: #ECDFCC; /* Soft Beige for post background */
+    padding: 15px;
+    margin: 15px 0;
+    width: 48%;
+    border-left: 5px solid #DA8359; /* Burnt Orange for a post highlight */
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin-bottom: 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #A5B68D; /* Sage Green for footer */
+    color: #FCFAEE; /* Ivory for footer text */
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
